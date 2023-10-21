@@ -1,12 +1,12 @@
-html="""
-<html>
-<body style="background-image: url('https://cutewallpaper.org/27/black-gold-flower-wallpaper/171679978.jpg'); background-repeat: no-repeat; background-size: 100% 100%;">
-</body>
-<form action="/">
-    <textarea name="message" id="message" cols="40" rows="10" ></textarea><br><br>
-    <input type="submit" value="Submit">
-</form>
-</html>"""
+# html="""
+# <html>
+# <body style="background-image: url('https://cutewallpaper.org/27/black-gold-flower-wallpaper/171679978.jpg'); background-repeat: no-repeat; background-size: 100% 100%;">
+# </body>
+# <form action="/">
+#     <textarea name="message" id="message" cols="40" rows="10" ></textarea><br><br>
+#     <input type="submit" value="Submit">
+# </form>
+# </html>"""
 
 
 html="""
@@ -35,3 +35,8 @@ input[type='number']{
 </html>"""
 
 
+html_confirm = """
+<html>
+<body style="background-color:rgb(12,24,38);">
+</body>
+</html>"""
