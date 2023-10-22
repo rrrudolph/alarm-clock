@@ -37,6 +37,7 @@ input[type='number']{
 
 html_confirm = """
 <html>
-<body style="background-color:rgb(12,24,38);">
+<body style="background-color:rgb(12,20,34);">
 </body>
 </html>"""
+

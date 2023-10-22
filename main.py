@@ -1,7 +1,7 @@
 import socket
 import urandom
 from html import html, html_confirm
-from timer import Time
+from alarm import Alarm
 from pemf import PEMF
 from lights import Light
 from utime import time
@@ -41,9 +41,11 @@ while True:
         conn.sendall(response)
         conn.close()
 
-alarm = Time()
+alarm = Alarm()
 alarm.set_alarm(message)
-print(alarm)
+print('time',time())
+print('pemf_sleep',alarm.pemf_sleep)
+print('diff', alarm.pemf_sleep-time())
 
 sleep_frequency = 2 + random_decimal()
 wakeup_frequency = 15 + random_decimal()

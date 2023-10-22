@@ -11,6 +11,6 @@ class Pinmap:
     D7 = Pin(13, Pin.OUT)
     D8 = Pin(15, Pin.OUT)
 
-LED = Signal(Pinmap.D4, invert=True)
+# LED = Signal(Pinmap.D4, invert=True)
 SIGNAL = Pinmap.D4
 LIGHT = PWM(Pinmap.D3)
